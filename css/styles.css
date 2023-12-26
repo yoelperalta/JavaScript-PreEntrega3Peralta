@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#tablero{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+    gap: 0px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.celda{
+    border: 1px solid grey;
+    width: 10px;
+    height: 10px;
+}
